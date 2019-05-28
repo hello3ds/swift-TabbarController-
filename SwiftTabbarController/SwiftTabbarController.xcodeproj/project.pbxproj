@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		00343B2A229CCA7200DFE790 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00343B29229CCA7200DFE790 /* AppDelegate.swift */; };
-		00343B2C229CCA7200DFE790 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00343B2B229CCA7200DFE790 /* ViewController.swift */; };
-		00343B2F229CCA7200DFE790 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00343B2D229CCA7200DFE790 /* Main.storyboard */; };
-		00343B31229CCA7400DFE790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00343B30229CCA7400DFE790 /* Assets.xcassets */; };
 		00343B34229CCA7400DFE790 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00343B32229CCA7400DFE790 /* LaunchScreen.storyboard */; };
 		00343B3F229CCA7500DFE790 /* SwiftTabbarControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00343B3E229CCA7500DFE790 /* SwiftTabbarControllerTests.swift */; };
 		00343B4A229CCA7500DFE790 /* SwiftTabbarControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00343B49229CCA7500DFE790 /* SwiftTabbarControllerUITests.swift */; };
+		00343B59229CCC7200DFE790 /* MainTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00343B58229CCC7200DFE790 /* MainTabbarViewController.swift */; };
+		00343B5F229CCCDA00DFE790 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00343B5E229CCCDA00DFE790 /* HomeViewController.swift */; };
+		00343B61229CCCE700DFE790 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00343B60229CCCE700DFE790 /* MineViewController.swift */; };
+		00343B63229CCCF700DFE790 /* RecommandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00343B62229CCCF700DFE790 /* RecommandViewController.swift */; };
+		00343B65229CCD0100DFE790 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00343B64229CCD0100DFE790 /* MessageViewController.swift */; };
+		00343B67229CD72800DFE790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00343B66229CD72700DFE790 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +39,6 @@
 /* Begin PBXFileReference section */
 		00343B26229CCA7200DFE790 /* SwiftTabbarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTabbarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00343B29229CCA7200DFE790 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		00343B2B229CCA7200DFE790 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		00343B2E229CCA7200DFE790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		00343B30229CCA7400DFE790 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00343B33229CCA7400DFE790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00343B35229CCA7400DFE790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00343B3A229CCA7500DFE790 /* SwiftTabbarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTabbarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +47,12 @@
 		00343B45229CCA7500DFE790 /* SwiftTabbarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTabbarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00343B49229CCA7500DFE790 /* SwiftTabbarControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTabbarControllerUITests.swift; sourceTree = "<group>"; };
 		00343B4B229CCA7500DFE790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00343B58229CCC7200DFE790 /* MainTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarViewController.swift; sourceTree = "<group>"; };
+		00343B5E229CCCDA00DFE790 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		00343B60229CCCE700DFE790 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		00343B62229CCCF700DFE790 /* RecommandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommandViewController.swift; sourceTree = "<group>"; };
+		00343B64229CCD0100DFE790 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		00343B66229CD72700DFE790 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +103,14 @@
 		00343B28229CCA7200DFE790 /* SwiftTabbarController */ = {
 			isa = PBXGroup;
 			children = (
+				00343B5D229CCCC700DFE790 /* Message */,
+				00343B5C229CCCB700DFE790 /* Recommand */,
+				00343B5B229CCCAF00DFE790 /* Mine */,
+				00343B5A229CCCA200DFE790 /* Home */,
+				00343B57229CCBB900DFE790 /* Base */,
 				00343B29229CCA7200DFE790 /* AppDelegate.swift */,
-				00343B2B229CCA7200DFE790 /* ViewController.swift */,
-				00343B2D229CCA7200DFE790 /* Main.storyboard */,
-				00343B30229CCA7400DFE790 /* Assets.xcassets */,
 				00343B32229CCA7400DFE790 /* LaunchScreen.storyboard */,
+				00343B66229CD72700DFE790 /* Assets.xcassets */,
 				00343B35229CCA7400DFE790 /* Info.plist */,
 			);
 			path = SwiftTabbarController;
@@ -123,6 +132,46 @@
 				00343B4B229CCA7500DFE790 /* Info.plist */,
 			);
 			path = SwiftTabbarControllerUITests;
+			sourceTree = "<group>";
+		};
+		00343B57229CCBB900DFE790 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				00343B58229CCC7200DFE790 /* MainTabbarViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		00343B5A229CCCA200DFE790 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				00343B5E229CCCDA00DFE790 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		00343B5B229CCCAF00DFE790 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				00343B60229CCCE700DFE790 /* MineViewController.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		00343B5C229CCCB700DFE790 /* Recommand */ = {
+			isa = PBXGroup;
+			children = (
+				00343B62229CCCF700DFE790 /* RecommandViewController.swift */,
+			);
+			path = Recommand;
+			sourceTree = "<group>";
+		};
+		00343B5D229CCCC700DFE790 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				00343B64229CCD0100DFE790 /* MessageViewController.swift */,
+			);
+			path = Message;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +278,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00343B67229CD72800DFE790 /* Assets.xcassets in Resources */,
 				00343B34229CCA7400DFE790 /* LaunchScreen.storyboard in Resources */,
-				00343B31229CCA7400DFE790 /* Assets.xcassets in Resources */,
-				00343B2F229CCA7200DFE790 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +304,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00343B2C229CCA7200DFE790 /* ViewController.swift in Sources */,
+				00343B59229CCC7200DFE790 /* MainTabbarViewController.swift in Sources */,
+				00343B63229CCCF700DFE790 /* RecommandViewController.swift in Sources */,
 				00343B2A229CCA7200DFE790 /* AppDelegate.swift in Sources */,
+				00343B5F229CCCDA00DFE790 /* HomeViewController.swift in Sources */,
+				00343B61229CCCE700DFE790 /* MineViewController.swift in Sources */,
+				00343B65229CCD0100DFE790 /* MessageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +345,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		00343B2D229CCA7200DFE790 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				00343B2E229CCA7200DFE790 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		00343B32229CCA7400DFE790 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
